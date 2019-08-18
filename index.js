@@ -28,6 +28,7 @@ const renderVideoTag = (url, options) => {
 			autoplay="${options.autoplay ? true : false}"
 			loop="${options.loop ? true : false}"
 			controls="${options.controls ? true : false}"
+			webkit-playsinline
 		></video>
 	`;
 
