@@ -25,8 +25,8 @@ const renderVideoTag = (url, options) => {
 			height="${options.height}"
 			preload="${options.preload}"
 			muted="${options.muted}"
-			${options.autoplay ? 'autoplay' : ''}
-			${options.loop ? 'loop' : ''}
+			autoplay="${options.autoplay ? true : false}"
+			loop="${options.loop ? true : false}"
 		></video>
 	`;
 
