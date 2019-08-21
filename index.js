@@ -29,6 +29,7 @@ const renderVideoTag = (url, options) => {
 			loop="${options.loop ? true : false}"
 			controls="${options.controls ? true : false}"
 			webkit-playsinline
+			playsinline
 		></video>
 	`;
 
